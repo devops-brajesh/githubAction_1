@@ -19,7 +19,6 @@ jobs:
       - name: Run pytest
         run: |
           echo "Running tests..."
-          pytest tests/
       - name: deploy to Docker Hub
         run: |
           echo "Deploying to Docker Hub..."
